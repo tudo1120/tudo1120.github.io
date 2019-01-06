@@ -1,12 +1,437 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Page Title</title>
+	<title>Résumé</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Resume">
+	<meta name="keywords" content="resume, civic, onepage, creative, html">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Favicon -->   
+	<link href="img/favicon.ico" rel="shortcut icon"/>
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,600,600i,700" rel="stylesheet">
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="css/flaticon.css"/>
+	<link rel="stylesheet" href="css/owl.carousel.css"/>
+	<link rel="stylesheet" href="css/magnific-popup.css"/>
+	<link rel="stylesheet" href="css/style.css"/>
+
+
+	<!--[if lt IE 9]>
+	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
 </head>
 <body>
+	<!-- Page Preloder -->
+	<div id="preloder">
+		<div class="loader"></div>
+	</div>
+	
+	<!-- Header section start -->
+	<header class="header-section">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="site-logo">
+						<h2><a href="#">Tu Do</a></h2>
+					</div>
+				</div>
+				<div class="col-md-8 text-md-right header-buttons">  
+					<a href="resume.pdf" class="site-btn">Resume</a>
+					<!-- <a href="#" class="site-btn">Discover me</a> -->
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- Header section end -->
 
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
+	<!-- Hero section start -->
+	<section class="hero-section spad">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xl-10 offset-xl-1">
+					<div class="row">
+						<div class="col-lg-6">
+							<div class="hero-info">
+								<ul>
+									<li>I’m a Computer Science student at the University of Minnesota, looking for a job as a Software Engineer.</li>
+								</ul>
+							</div>
+							<br/>
+							<div class="hero-info">
+								<ul>
+									<li><span>Address</span>2600 University Ave SE, Apt 307</li>
+									<li><span></span>Minneapolis, MN, 55414</li>
+									<li><span>E-mail</span>doxxx160@umn.edu</li>
+									<li><span>Phone </span>+1 612 458 9808</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<figure class="hero-image">
+								<img src="img/hero.jpg" alt="5">
+							</figure>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Hero section end -->
 
+	<!-- Social links section start -->
+	<!-- <div class="social-section">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xl-10 offset-xl-1">
+					<div class="social-link-warp">
+						<div class="social-links">
+							<a href=""><i class="fa fa-pinterest"></i></a>
+							<a href=""><i class="fa fa-linkedin"></i></a>
+							<a href=""><i class="fa fa-instagram"></i></a>
+							<a href=""><i class="fa fa-facebook"></i></a>
+							<a href=""><i class="fa fa-twitter"></i></a>
+						</div>
+						<h2 class="hidden-md hidden-sm">My Social Profiles</h2>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>	 -->
+	<!-- Social links section end -->
+
+	<!-- Resume section start -->
+	<section class="resume-section spad">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xl-7 offset-xl-2">
+					<div class="section-title">
+						<h2>Work Experience</h2>
+					</div>
+					<ul class="resume-list">
+						<li>
+							<h2>Sept 2018 – Present</h2>
+							<h3>Medtronic</h3>
+							<h4>Student Intern</h4>
+							<p>Build a web application used to support co-edit and sync graph data among collaborators in real-time. </p>
+							<p>Architect and design data pipelines on database, manage data with cloud technology. </p>
+							<p>Deliver data queries to support API endpoints for creating/updating/deleting graph data. </p>
+							<p>Remotely coordinate with an on-site development team using Agile methodology to complete deliverables. </p>
+							<p><b>Technology:</b> C#, ASP.NET Core, Neo4j, Docker, AWS</p>
+						</li>
+						<li>
+							<h2>Sept 2018 – Present</h2>
+							<h3>GroupLens Research</h3>
+							<h4>Research Assistant</h4>
+							<p>Build a full-stack mobile app to facilitate tracking and documentation of the verification, safety, and appropriateness of opioid medication treatment plans to prevent drug abuse after surgery. </p>
+							<p>Utilize React Native framework to support usage of multiple mobile platforms and synchronization of data across patients, nurses and surgeons. </p>
+							<p><b>Technology:</b> React Native, Firebase, AWS</p>
+						</li>
+						<li>
+							<h2>2017-2018</h2>
+							<h3>CyberOptics</h3>
+							<h4>Software Intern</h4>
+							<p>Built smoke testing and regression testing frameworks for CyberOptics’ measurement devices and scanning systems. </p>
+							<p>Implemented, debugged, and revised unit tests. Updated and automated manual test cases to increase accuracy and efficiency</p>
+							<p>Designed mock-ups; tested the functionality of user interfaces and controls of desktop applications for sensing devices</p>
+							<p>Sped up data queries; reduced query execution time from hours to few minutes</p>
+							<p>Visualized manufacturing product line statistics with interactive charts</p>
+							<p>Performed data analysis on threshold calculations, potential schema changes and future software development</p>
+							<p><b>Technology:</b> C#, NUnit, ASP.NET, Oracle, Javascripts, SVG, D3</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Resume section end -->
+
+	<!-- Resume section start -->
+	<section class="resume-section with-bg spad">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xl-7 offset-xl-2">
+					<div class="section-title">
+						<h2>Education</h2>
+					</div>
+					<ul class="resume-list">
+						<li>
+							<h2>2015 - 2019</h2>
+							<h3>B.S. in Computer Science</h3>
+							<h4>University of Minnesota – Twin Cities</h4>
+							<p>GPA: 3.6</p>
+							<p>Coursework: Developing Interactive Web, Artificial Intelligence, Data Mining, Database Management Systems,
+									Software Design & Development, Algorithms & Data Structures, Advanced Programming Principles, Machine Architecture & Organization. </p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>	<section class="resume-section spad">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-xl-7 offset-xl-2">
+						<div class="section-title">
+							<h2>Projects</h2>
+						</div>
+						<ul class="resume-list">
+							<li>
+								<h2>November 2018</h2>
+								<h3>PenguinExplorer</h3>
+								<h4>Group Project</h4>
+								<p>Built a web application used to encourage users explore the cities and keep track of places in every city users visit.</p>
+								<p>Utilized Google Maps API to represent place information such as geolocation and ranking on map and pull data to app's database.</p>
+								<p>Updated database through API endpoints each time users add/update/delete information.</p>
+								<p><b>Technology: </b> Vue, Firebase, Mobile First Design</p>
+								<p><b>URL: </b> <a href="https://module2penguin.firebaseapp.com/">PenguinExplorer</a></p>
+							</li>
+							<li>
+								<h2>October 2018</h2>
+								<h3>Q and A Dating</h3>
+								<h4>Group Project</h4>
+								<p>Built a social media web application to help users find their dates by asking and answering question from other users.</p>
+								<p>Set up authorization where users can log in with their Google or Facebook accounts.</p>
+								<p>Designed UI and implemented functionality for profile page where users edit their personal information, ask/answer question and make connection request. </p>
+								<p><b>Technology: </b> Python, Flask, Heroku, Postgresql</p>
+								<p><b>URL: </b> <a href="https://q-and-a-dating.herokuapp.com">Q-and-A-Dating</a></p>
+							</li>
+							<li>
+								<h2>May 2018</h2>
+								<h3>Trait Predictor</h3>
+								<h4>Class Project</h4>
+								<p>Explored the “Speed Dating Experiment” dataset: used data visualization and machine learning techniques to extract key
+										attributes and factors of both genders that influence the matching making and decision-making processes.</p>
+								<p>Built decision tree and random forest models to predict the success rate of men and women in speed dating session. Compared the performances of each model and technique with different sets of parameters, attributes, test splits in
+										correctly predicting the outcome.</p>
+								<p><b>Technology: </b> scikit-learn, pandas</p>
+								<p><b>Paper: </b> <a href="determining-attractive-traits.pdf">TraitPredictor</a></p>
+							</li>
+							<li>
+								<h2>January 2017</h2>
+								<h3>OKBo</h3>
+								<h4>Personal Project</h4>
+								<p>Participated in Microsoft’s Imagine Cup competition. Built app that can scan books’ barcodes and provide useful
+										information from credible sources.</p>
+								<p>Utilized Google Books API to pull data to internal database and perform text searches. Implemented SQLite database to
+										import, maintain, and query collected data information in the mobile app.</p>
+								<p><b>Technology: </b> Android, SQLite</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+
+	<!-- Resume section end -->
+
+	
+	<!-- Review section start -->
+	<!-- <section class="review-section spad pb-0">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xl-7 offset-xl-2">
+					<div class="section-title">
+						<h2>References</h2>
+					</div>
+					<div class="review-slider owl-carousel">
+						<div class="single-review">
+							<div class="qut">“</div>
+							<p>Sit amet, consectetur adipiscing elit. Sed porttitor orci ut sapien scelerisque viverra. Sed trist ique justo nec mauris efficitur, ut lacinia elit dapibus. In egestas elit in dap ibus laoreet. Duis magna libero, fermentum ut facilisis id, pulvinar eget tortor. Vestibulum pelle ntesque tincidunt lorem, vitae euismod felis porttitor sed. </p>
+							<h3>Robert G. Smith</h3>
+							<h4>Manager, Company</h4>
+						</div>
+						<div class="single-review">
+							<div class="qut">“</div>
+							<p>Sit amet, consectetur adipiscing elit. Sed porttitor orci ut sapien scelerisque viverra. Sed trist ique justo nec mauris efficitur, ut lacinia elit dapibus. In egestas elit in dap ibus laoreet. Duis magna libero, fermentum ut facilisis id, pulvinar eget tortor. Vestibulum pelle ntesque tincidunt lorem, vitae euismod felis porttitor sed. </p>
+							<h3>Robert G. Smith</h3>
+							<h4>Manager, Company</h4>
+						</div>
+						<div class="single-review">
+							<div class="qut">“</div>
+							<p>Sit amet, consectetur adipiscing elit. Sed porttitor orci ut sapien scelerisque viverra. Sed trist ique justo nec mauris efficitur, ut lacinia elit dapibus. In egestas elit in dap ibus laoreet. Duis magna libero, fermentum ut facilisis id, pulvinar eget tortor. Vestibulum pelle ntesque tincidunt lorem, vitae euismod felis porttitor sed. </p>
+							<h3>Robert G. Smith</h3>
+							<h4>Manager, Company</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section> -->
+	<!-- Review section end -->
+
+
+	<!-- Portfolio section start -->
+	<!-- <section class="portfolio-section spad pb-0">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xl-4 col-md-8 offset-xl-2 ">
+					<div class="section-title">
+						<h2>Portfolio</h2>
+					</div>
+				</div>
+				<div class="col-md-4 text-md-right">
+					<a href="#" class="site-btn mb-5">See All Portfolio</a>
+				</div>
+			</div>
+			<div class="portfolio-warp">
+				<div class="row">
+					<div class="col-xl-3 col-lg-6 col-md-6">
+						<div class="portfolio-item">
+							<a href="img/portfolio/1.jpg" class="set-bg port-pic" data-setbg="img/portfolio/1.jpg"></a>
+							<h2>Brand Campaign</h2>
+							<p>Graphic design</p>
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-6 col-md-6">
+						<div class="portfolio-item">
+							<a href="img/portfolio/2.jpg" class="set-bg port-pic" data-setbg="img/portfolio/2.jpg"></a>
+							<h2>A Corporate Identity</h2>
+							<p>Graphic design</p>
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-6 col-md-6">
+						<div class="portfolio-item">
+							<a href="img/portfolio/3.jpg" class="set-bg port-pic" data-setbg="img/portfolio/3.jpg"></a>
+							<h2>Web Design Website</h2>
+							<p>Graphic design</p>
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-6 col-md-6">
+						<div class="portfolio-item">
+							<a href="img/portfolio/4.jpg" class="set-bg port-pic" data-setbg="img/portfolio/4.jpg"></a>
+							<h2>Logo design</h2>
+							<p>Graphic design</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section> -->
+	<!-- Portfolio section end -->
+
+	<!-- Extra section start -->
+	<!-- <section class="extra-section spad pb-0">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xl-8 offset-xl-2">
+					<div class="section-title">
+						<h2>Extra Skills</h2>
+					</div>
+					<div class="row">
+						<div class="col-lg-3 col-md-6 pt-5">
+							<div class="fact-box trans">
+								<div class="fact-content">
+									<div class="circle-progress">
+										<div id="progress1" class="prog-circle"></div>
+										<div class="progress-info">
+											<h2>75%</h2>
+										</div>
+										<div class="prog-title">
+											<h3>Inspiration</h3>
+											<p>Etiam nec odio vestibulum est.</p>
+										</div>			
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 pt-5">
+							<div class="fact-box trans">
+								<div class="fact-content">
+									<div class="circle-progress">
+										<div id="progress2" class="prog-circle"></div>
+										<div class="progress-info">
+											<h2>83%</h2>
+										</div>
+										<div class="prog-title">
+											<h3>Inspiration</h3>
+											<p>Etiam nec odio vestibulum est.</p>
+										</div>			
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6">
+							<div class="fact-box">
+								<div class="fact-content">
+									<img src="img/icon/1-w.png" alt="">
+									<h2>14</h2>
+									<p>Years of Experience</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6">
+							<div class="fact-box">
+								<div class="fact-content">
+									<img src="img/icon/2-w.png" alt="">
+									<h2>9</h2>
+									<p>Awards Won</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section> -->
+	<!-- Extra section end -->
+
+	<!-- Contact section start -->
+	<!-- <section class="contact-section spad">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xl-8 offset-xl-2">
+					<div class="section-title">
+						<h2>Contact Me</h2>
+					</div>
+					<form class="contact-form">
+						<div class="row">
+							<div class="col-md-6">
+								<input type="text" placeholder="Name">
+							</div>
+							<div class="col-md-6">
+								<input type="text" placeholder="E-mail">
+							</div>
+							<div class="col-md-12">
+								<input type="text" placeholder="Subject">
+								<textarea placeholder="Message"></textarea>
+							</div>
+						</div>
+						<div class="text-md-right">
+							<button class="site-btn">Send message</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section> -->
+	<!-- Contact section end -->
+
+	<!-- Footer section start -->
+	<footer class="footer-section">
+		<div class="container text-center">
+			<div class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+</div>
+		</div>
+	</footer>
+	<!-- Footer section end -->
+
+
+	<!--====== Javascripts & Jquery ======-->
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/magnific-popup.min.js"></script>
+	<script src="js/circle-progress.min.js"></script>
+	<script src="js/main.js"></script>
 </body>
 </html>
